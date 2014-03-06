@@ -816,6 +816,28 @@
 <package name="PIN_SMD_0.8X2">
 <smd name="PIN" x="0" y="0" dx="2" dy="0.8" layer="1" roundness="50"/>
 </package>
+<package name="RPTC_5">
+<description>5.1mm (4A)</description>
+<pad name="P$1" x="-2.55" y="-0.5" drill="1" shape="square"/>
+<pad name="P$2" x="2.55" y="0.5" drill="1" shape="square"/>
+<wire x1="-7" y1="1.5" x2="7" y2="1.5" width="0.127" layer="21"/>
+<wire x1="7" y1="1.5" x2="7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="7" y1="-1.5" x2="-7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-7" y1="-1.5" x2="-7" y2="1.5" width="0.127" layer="21"/>
+<text x="-2.1" y="0.2" size="1" layer="21" ratio="17">&gt;NAME</text>
+<text x="-2.6" y="-1.1" size="1" layer="21" ratio="17">&gt;VALUE</text>
+</package>
+<package name="RPTC_10">
+<description>10.2mm (5A)</description>
+<pad name="P$1" x="-5.1" y="-0.5" drill="1" shape="square"/>
+<pad name="P$2" x="5.1" y="0.5" drill="1" shape="square"/>
+<wire x1="-8.5" y1="1.5" x2="8.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="1.5" x2="8.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-1.5" x2="-8.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-1.5" x2="-8.5" y2="1.5" width="0.127" layer="21"/>
+<text x="-2.2" y="0.2" size="1" layer="21" ratio="17">&gt;NAME</text>
+<text x="-2.7" y="-1.1" size="1" layer="21" ratio="17">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -1122,6 +1144,24 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THT5.1" package="RPTC_5">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THT10.2" package="RPTC_10">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1805,19 +1845,19 @@ Id: e5bd48346acc4d549d678cb059be64ef</description>
 <smd name="31" x="-1.25" y="2.4" dx="0.75" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="32" x="-1.75" y="2.4" dx="0.75" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="33" x="0" y="0" dx="0.35" dy="0.35" layer="1" stop="no" cream="no"/>
-<polygon width="0.01" layer="1">
-<vertex x="-1.25" y="0.95"/>
-<vertex x="-0.95" y="1.25"/>
-<vertex x="1.25" y="1.25"/>
-<vertex x="1.25" y="-1.25"/>
-<vertex x="-1.25" y="-1.25"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1.15" y="0.85"/>
+<vertex x="-0.85" y="1.15"/>
+<vertex x="1.15" y="1.15"/>
+<vertex x="1.15" y="-1.15"/>
+<vertex x="-1.15" y="-1.15"/>
 </polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.255" y="0.955"/>
-<vertex x="-0.955" y="1.255"/>
-<vertex x="1.255" y="1.255"/>
-<vertex x="1.255" y="-1.255"/>
-<vertex x="-1.255" y="-1.255"/>
+<polygon width="0.2" layer="29">
+<vertex x="-1.155" y="0.855"/>
+<vertex x="-0.855" y="1.155"/>
+<vertex x="1.155" y="1.155"/>
+<vertex x="1.155" y="-1.155"/>
+<vertex x="-1.155" y="-1.155"/>
 </polygon>
 <wire x1="-2.89" y1="-2.89" x2="-2.89" y2="2.89" width="0.01" layer="39"/>
 <wire x1="-2.89" y1="2.89" x2="2.89" y2="2.89" width="0.01" layer="39"/>
