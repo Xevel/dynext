@@ -354,33 +354,53 @@
 <wire x1="-1.5" y1="-0.6" x2="-1.5" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-3.1" x2="-1.5" y2="-4.4" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-5.6" x2="-1.5" y2="-7.5" width="0.127" layer="21"/>
-<wire x1="0" y1="0.4" x2="-1.5" y2="0.6" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.4" x2="-1.5" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.1" x2="-1.5" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.9" x2="-1.5" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="0" y1="-4.6" x2="-1.5" y2="-4.4" width="0.127" layer="21"/>
-<wire x1="0" y1="-5.4" x2="-1.5" y2="-5.6" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.5" x2="-1.5" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.5" x2="-1.5" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-2" x2="-1.5" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-3" x2="-1.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-4.5" x2="-1.5" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-5.5" x2="-1.5" y2="-5.6" width="0.127" layer="21"/>
 <wire x1="5" y1="2.5" x2="6.6" y2="0.9" width="0.127" layer="21"/>
 <pad name="GND" x="0" y="0" drill="0.8" diameter="1.6764" shape="square"/>
 <pad name="VBUS" x="0" y="-2.5" drill="0.8" diameter="1.6764"/>
 <pad name="DATA" x="0" y="-5" drill="0.8" diameter="1.6764"/>
 </package>
 <package name="DYNAMIXEL_3POS_TOP">
-<pad name="GND" x="1.8" y="7.45" drill="0.8" diameter="1.6764" shape="square"/>
-<pad name="VBUS" x="1.8" y="4.95" drill="0.8" diameter="1.6764"/>
-<pad name="DATA" x="1.8" y="2.45" drill="0.8" diameter="1.6764"/>
-<wire x1="0.8" y1="0" x2="1.2" y2="0" width="0.127" layer="21"/>
-<wire x1="1.2" y1="0" x2="4.9" y2="0" width="0.127" layer="21"/>
-<wire x1="4.9" y1="0" x2="4.9" y2="9.9" width="0.127" layer="21"/>
-<wire x1="4.9" y1="9.9" x2="1.1" y2="9.9" width="0.127" layer="21"/>
-<wire x1="1.1" y1="9.9" x2="0" y2="9.9" width="0.127" layer="21"/>
-<wire x1="0" y1="9.9" x2="0" y2="8.8" width="0.127" layer="21"/>
-<wire x1="0" y1="8.8" x2="0" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.8" y1="0" x2="0" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1.2" y1="0" x2="0.25" y2="0.95" width="0.127" layer="21"/>
-<wire x1="0.25" y1="0.95" x2="0.25" y2="9.05" width="0.127" layer="21"/>
-<wire x1="0.25" y1="9.05" x2="1.1" y2="9.9" width="0.127" layer="21"/>
-<text x="3.3" y="7" size="1" layer="21" ratio="17">1</text>
+<pad name="GND" x="0" y="0" drill="0.8" diameter="1.6764" shape="square" rot="R180"/>
+<pad name="VBUS" x="0" y="-2.5" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="DATA" x="0" y="-5" drill="0.8" diameter="1.6764" rot="R180"/>
+<wire x1="1" y1="-7.45" x2="0.6" y2="-7.45" width="0.127" layer="22"/>
+<wire x1="0.6" y1="-7.45" x2="-3.1" y2="-7.45" width="0.127" layer="22"/>
+<wire x1="-3.1" y1="-7.45" x2="-3.1" y2="2.45" width="0.127" layer="22"/>
+<wire x1="-3.1" y1="2.45" x2="0.7" y2="2.45" width="0.127" layer="22"/>
+<wire x1="0.7" y1="2.45" x2="1.8" y2="2.45" width="0.127" layer="22"/>
+<wire x1="1.8" y1="2.45" x2="1.8" y2="-6.65" width="0.127" layer="22"/>
+<wire x1="1" y1="-7.45" x2="1.8" y2="-6.65" width="0.127" layer="22"/>
+<wire x1="0.6" y1="-7.45" x2="1.55" y2="-6.5" width="0.127" layer="22"/>
+<wire x1="1.55" y1="-6.5" x2="1.55" y2="1.6" width="0.127" layer="22"/>
+<wire x1="1.55" y1="1.6" x2="0.7" y2="2.45" width="0.127" layer="22"/>
+</package>
+<package name="SOD-923_N">
+<description>SODFL Diode,;0.80mm W X 0.60mm L X 0.43mm H body</description>
+<smd name="C" x="-0.55" y="0" dx="0.43" dy="0.32" layer="1"/>
+<smd name="A" x="0.55" y="0" dx="0.43" dy="0.32" layer="1"/>
+<wire x1="-0.94" y1="-0.49" x2="-0.94" y2="0.49" width="0.01" layer="39"/>
+<wire x1="-0.94" y1="0.49" x2="0.94" y2="0.49" width="0.01" layer="39"/>
+<wire x1="0.94" y1="0.49" x2="0.94" y2="-0.49" width="0.01" layer="39"/>
+<wire x1="0.94" y1="-0.49" x2="-0.94" y2="-0.49" width="0.01" layer="39"/>
+<circle x="-0.9" y="0.66" radius="0.25" width="0" layer="21"/>
+<text x="-0.61" y="0.55" size="0.7" layer="25" ratio="5">&gt;NAME</text>
+<text x="0.94" y="-0.21" size="0.7" layer="27" ratio="5">&gt;VALUE</text>
+<wire x1="-0.4" y1="-0.3" x2="-0.4" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="0.3" x2="0.4" y2="0.3" width="0.1" layer="51"/>
+<wire x1="0.4" y1="0.3" x2="0.4" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.4" y1="-0.3" x2="-0.4" y2="-0.3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-0.4" y="-0.275"/>
+<vertex x="-0.4" y="0.275"/>
+<vertex x="0.1" y="0.275"/>
+<vertex x="0.1" y="-0.275"/>
+</polygon>
 </package>
 <package name="SOD-523_N">
 <description>SOD-523 SODFL Diode; 1.20mm W X 0.80mm L X 0.70mm H body</description>
@@ -838,6 +858,28 @@
 <text x="-2.2" y="0.2" size="1" layer="21" ratio="17">&gt;NAME</text>
 <text x="-2.7" y="-1.1" size="1" layer="21" ratio="17">&gt;VALUE</text>
 </package>
+<package name="SOD-923_L">
+<description>SODFL Diode,;0.80mm W X 0.60mm L X 0.43mm H body</description>
+<smd name="C" x="-0.5" y="0" dx="0.33" dy="0.22" layer="1"/>
+<smd name="A" x="0.5" y="0" dx="0.33" dy="0.22" layer="1"/>
+<wire x1="-0.79" y1="-0.44" x2="-0.79" y2="0.44" width="0.01" layer="39"/>
+<wire x1="-0.79" y1="0.44" x2="0.79" y2="0.44" width="0.01" layer="39"/>
+<wire x1="0.79" y1="0.44" x2="0.79" y2="-0.44" width="0.01" layer="39"/>
+<wire x1="0.79" y1="-0.44" x2="-0.79" y2="-0.44" width="0.01" layer="39"/>
+<circle x="-0.9" y="0.61" radius="0.25" width="0" layer="21"/>
+<text x="-0.65" y="0.48" size="0.7" layer="25" ratio="5">&gt;NAME</text>
+<text x="0.84" y="-0.24" size="0.7" layer="27" ratio="5">&gt;VALUE</text>
+<wire x1="-0.4" y1="-0.3" x2="-0.4" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.4" y1="0.3" x2="0.4" y2="0.3" width="0.1" layer="51"/>
+<wire x1="0.4" y1="0.3" x2="0.4" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.4" y1="-0.3" x2="-0.4" y2="-0.3" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-0.4" y="-0.275"/>
+<vertex x="-0.4" y="0.275"/>
+<vertex x="0.1" y="0.275"/>
+<vertex x="0.1" y="-0.275"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -895,6 +937,20 @@
 <wire x1="-1.778" y1="2.54" x2="1.778" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="1.778" y1="-1.016" x2="1.778" y2="-2.794" width="0.254" layer="94"/>
 <text x="0.508" y="-4.572" size="1.778" layer="94">+</text>
+</symbol>
+<symbol name="DIODE_ZENER">
+<description>Zener Diode</description>
+<wire x1="-1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
+<text x="-3.0226" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="4.8514" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="DIODE">
 <description>Diode</description>
@@ -1162,6 +1218,32 @@
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE_ZENER" prefix="D" uservalue="yes">
+<description>Zener Diode</description>
+<gates>
+<gate name="G$1" symbol="DIODE_ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-923_L" package="SOD-923_L">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-923" package="SOD-923_N">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4906,8 +4988,8 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="RPTC1" library="Xevelabs" deviceset="R-PTC" device="0603" value="PRG18BB101MB1RB "/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="Xevelabs" deviceset="DIODE" device="-SOD523" value="NZ9F5V1ST5G"/>
-<part name="D3" library="Xevelabs" deviceset="DIODE" device="-SOD523" value="NZ9F5V1ST5G"/>
+<part name="D1" library="Xevelabs" deviceset="DIODE_ZENER" device="-923" value="NZ9F5V1ST5G"/>
+<part name="D3" library="Xevelabs" deviceset="DIODE_ZENER" device="-923" value="NZ9F5V1ST5G"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
@@ -4923,7 +5005,7 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="RPTC2" library="Xevelabs" deviceset="R-PTC" device="0603" value="PRG18BB101MB1RB "/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="D4" library="Xevelabs" deviceset="DIODE" device="-SOD523" value="NZ9F5V1ST5G"/>
+<part name="D4" library="Xevelabs" deviceset="DIODE_ZENER" device="-923" value="NZ9F5V1ST5G"/>
 <part name="U5" library="MWquad_stuff" deviceset="TXB0101" device="DCK"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
@@ -4943,7 +5025,6 @@ Standard 7-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="L3" library="Panasonic-ELL" deviceset="ELL" device="-4XG" technology="4LG100MA" value=" 10UH "/>
 <part name="R1" library="Xevelabs" deviceset="R" device="0402" value="470R"/>
-<part name="C11" library="Xevelabs" deviceset="C" device="0402" value="0.1uF"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="texas" deviceset="LM4041" device="DBZ" technology="A12" value="LM4040D20IDBZT"/>
 <part name="R4" library="Xevelabs" deviceset="R" device="0402" value="470R"/>
@@ -5009,10 +5090,6 @@ http://asf.atmel.com/docs/3.7.2/xmega.drivers.usart.example3.xmega_e5_xplained/h
 <text x="-2.54" y="243.84" size="1.778" layer="91">Dynext v1.0
 https://github.com/Xevel/dynext</text>
 <text x="60.96" y="243.84" size="1.778" layer="91">License: MIT</text>
-<text x="25.4" y="251.46" size="1.778" layer="92">Not fit for use as is.
-Errors:
-- SOT-523 diodes should be SOT-923
-- DXL connectors are reversed</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="43.18" y="20.32"/>
@@ -5044,8 +5121,8 @@ Errors:
 <instance part="RPTC1" gate="G$1" x="246.38" y="76.2" rot="R270"/>
 <instance part="GND13" gate="1" x="236.22" y="63.5"/>
 <instance part="D1" gate="G$1" x="236.22" y="71.12" rot="R180"/>
-<instance part="D3" gate="G$1" x="236.22" y="83.82" rot="R180"/>
-<instance part="P+6" gate="1" x="236.22" y="93.98"/>
+<instance part="D3" gate="G$1" x="233.68" y="83.82" rot="R180"/>
+<instance part="P+6" gate="1" x="233.68" y="93.98"/>
 <instance part="GND14" gate="1" x="55.88" y="198.12"/>
 <instance part="GND16" gate="1" x="124.46" y="193.04"/>
 <instance part="P+5" gate="1" x="149.86" y="236.22"/>
@@ -5080,8 +5157,7 @@ Errors:
 <instance part="GND26" gate="1" x="104.14" y="210.82"/>
 <instance part="L3" gate="A" x="86.36" y="223.52"/>
 <instance part="R1" gate="G$1" x="264.16" y="175.26"/>
-<instance part="C11" gate="G$1" x="198.12" y="213.36"/>
-<instance part="GND22" gate="1" x="198.12" y="208.28"/>
+<instance part="GND22" gate="1" x="195.58" y="215.9"/>
 <instance part="IC2" gate="G$1" x="248.92" y="116.84"/>
 <instance part="R4" gate="G$1" x="248.92" y="129.54"/>
 <instance part="+3V8" gate="G$1" x="248.92" y="139.7"/>
@@ -5224,10 +5300,6 @@ Errors:
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
@@ -5247,6 +5319,11 @@ Errors:
 <pinref part="IC2" gate="G$1" pin="A"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="248.92" y1="114.3" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="187.96" y1="218.44" x2="195.58" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="DXL3" gate="G$1" pin="1"/>
+<pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -5369,6 +5446,9 @@ Errors:
 <wire x1="271.78" y1="220.98" x2="271.78" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <junction x="248.92" y="220.98"/>
+<pinref part="DXL3" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="220.98" x2="231.14" y2="220.98" width="0.1524" layer="91"/>
+<junction x="231.14" y="220.98"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5390,7 +5470,7 @@ Errors:
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="236.22" y1="86.36" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="86.36" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
@@ -5502,7 +5582,7 @@ Errors:
 <junction x="236.22" y="76.2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="76.2" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="76.2" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="B"/>
 <wire x1="208.28" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
 </segment>
@@ -5625,13 +5705,6 @@ Errors:
 <junction x="124.46" y="223.52"/>
 <pinref part="L3" gate="A" pin="1"/>
 <pinref part="F1" gate="F" pin="1"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="218.44" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="DXL3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$29" class="0">
