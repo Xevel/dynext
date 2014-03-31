@@ -8,20 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +43,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -812,6 +816,28 @@
 <text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="RPTC_5">
+<description>5.1mm (4A)</description>
+<pad name="P$1" x="-2.55" y="-0.5" drill="1" shape="square"/>
+<pad name="P$2" x="2.55" y="0.5" drill="1" shape="square"/>
+<wire x1="-7" y1="1.5" x2="7" y2="1.5" width="0.127" layer="21"/>
+<wire x1="7" y1="1.5" x2="7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="7" y1="-1.5" x2="-7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-7" y1="-1.5" x2="-7" y2="1.5" width="0.127" layer="21"/>
+<text x="-2.1" y="0.2" size="1" layer="21" ratio="17">&gt;NAME</text>
+<text x="-2.6" y="-1.1" size="1" layer="21" ratio="17">&gt;VALUE</text>
+</package>
+<package name="RPTC_10">
+<description>10.2mm (5A)</description>
+<pad name="P$1" x="-5.1" y="-0.5" drill="1" shape="square"/>
+<pad name="P$2" x="5.1" y="0.5" drill="1" shape="square"/>
+<wire x1="-8.5" y1="1.5" x2="8.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="1.5" x2="8.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-1.5" x2="-8.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-1.5" x2="-8.5" y2="1.5" width="0.127" layer="21"/>
+<text x="-2.2" y="0.2" size="1" layer="21" ratio="17">&gt;NAME</text>
+<text x="-2.7" y="-1.1" size="1" layer="21" ratio="17">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="L">
@@ -1118,6 +1144,24 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THT5.1" package="RPTC_5">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THT10.2" package="RPTC_10">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1543,6 +1587,20 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <text x="-1.905" y="0" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.7465" y1="-1.651" x2="3.7465" y2="1.651" layer="39"/>
 </package>
+<package name="SC70-5">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1"/>
+<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
+<circle x="-1.27" y="-1.27" radius="0.25" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MIC5205">
@@ -1619,6 +1677,18 @@ datasheet here: &lt;u&gt;http://www.micrel.com/product-info/prod/5205.shtml</des
 </gates>
 <devices>
 <device name="-1300180P1" package="SOT23-5">
+<connects>
+<connect gate="U" pin="BYP" pad="4"/>
+<connect gate="U" pin="EN" pad="3"/>
+<connect gate="U" pin="GND" pad="2"/>
+<connect gate="U" pin="VIN" pad="1"/>
+<connect gate="U" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SC70-5">
 <connects>
 <connect gate="U" pin="BYP" pad="4"/>
 <connect gate="U" pin="EN" pad="3"/>
@@ -1795,19 +1865,19 @@ Id: e5bd48346acc4d549d678cb059be64ef</description>
 <smd name="31" x="-1.25" y="2.4" dx="0.75" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="32" x="-1.75" y="2.4" dx="0.75" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="33" x="0" y="0" dx="0.35" dy="0.35" layer="1" stop="no" cream="no"/>
-<polygon width="0.01" layer="1">
-<vertex x="-1.25" y="0.95"/>
-<vertex x="-0.95" y="1.25"/>
-<vertex x="1.25" y="1.25"/>
-<vertex x="1.25" y="-1.25"/>
-<vertex x="-1.25" y="-1.25"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1.15" y="0.85"/>
+<vertex x="-0.85" y="1.15"/>
+<vertex x="1.15" y="1.15"/>
+<vertex x="1.15" y="-1.15"/>
+<vertex x="-1.15" y="-1.15"/>
 </polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.255" y="0.955"/>
-<vertex x="-0.955" y="1.255"/>
-<vertex x="1.255" y="1.255"/>
-<vertex x="1.255" y="-1.255"/>
-<vertex x="-1.255" y="-1.255"/>
+<polygon width="0.2" layer="29">
+<vertex x="-1.155" y="0.855"/>
+<vertex x="-0.855" y="1.155"/>
+<vertex x="1.155" y="1.155"/>
+<vertex x="1.155" y="-1.155"/>
+<vertex x="-1.155" y="-1.155"/>
 </polygon>
 <wire x1="-2.89" y1="-2.89" x2="-2.89" y2="2.89" width="0.01" layer="39"/>
 <wire x1="-2.89" y1="2.89" x2="2.89" y2="2.89" width="0.01" layer="39"/>
@@ -1925,6 +1995,8 @@ Id: e5bd48346acc4d549d678cb059be64ef</description>
 <pin name="PR0/XTAL2/TOSC2/CLKOUT/EVOUT/RTCOUT/AC1OUT" x="-30.48" y="-53.34" length="short"/>
 <pin name="PR1/XTAL1/TOSC1/EXTCLK/AC0OUT" x="-30.48" y="-55.88" length="short"/>
 <pin name="VCC" x="-12.7" y="27.94" length="short" rot="R270"/>
+<text x="-27.686" y="26.924" size="1.27" layer="95">&gt;NAME</text>
+<text x="17.78" y="-68.58" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -9802,19 +9874,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="6" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1"/>
+<smd name="6" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1"/>
 <text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
-<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
-<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
-<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
-<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
-<smd name="5" x="0" y="0.825" dx="0.4" dy="0.75" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="0" y="0.825" dx="0.4" dy="0.75" layer="1" rot="R180"/>
 <circle x="-1.27" y="-1.27" radius="0.25" width="0" layer="21"/>
 </package>
 </packages>
