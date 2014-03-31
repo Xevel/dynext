@@ -8,17 +8,17 @@
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="GND" color="1" fill="5" visible="no" active="yes"/>
 <layer number="3" name="POWER" color="4" fill="15" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -26,7 +26,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -130,7 +130,7 @@
 <text x="12.035" y="15.32" size="0.7" layer="21" font="vector" ratio="17" rot="SR180">5V</text>
 <text x="18.695" y="15.44" size="0.7" layer="21" font="vector" ratio="17" rot="SR180">GND</text>
 <text x="3.28" y="6.2" size="1.5" layer="22" font="vector" ratio="17" rot="MR180">DYNEXT</text>
-<text x="13.35" y="1.15" size="0.9" layer="22" font="vector" ratio="17" rot="MR0">XEVELABS.COM</text>
+<text x="12.31" y="1.73" size="0.9" layer="22" font="vector" ratio="17" rot="MR0">XEVELABS.COM</text>
 <text x="3.425" y="4.45" size="1" layer="22" font="vector" ratio="17" rot="MR180">v2.0</text>
 <circle x="14.6" y="15.9" radius="2" width="0.01" layer="51"/>
 <hole x="14.6" y="15.9" drill="2"/>
@@ -184,18 +184,25 @@
 <text x="20.54" y="1.715" size="0.7" layer="22" font="vector" ratio="17" rot="MR90">5/ISP</text>
 <text x="18.2" y="1.755" size="0.7" layer="22" font="vector" ratio="17" rot="SMR90">TX</text>
 <text x="16.65" y="1.825" size="0.7" layer="22" font="vector" ratio="17" rot="SMR90">RX</text>
-<text x="5.895" y="11.72" size="0.7" layer="22" font="vector" ratio="17" rot="MR0">GND</text>
-<text x="20.085" y="11.85" size="0.7" layer="22" font="vector" ratio="17" rot="MR0">GND</text>
-<text x="8.435" y="11.73" size="0.7" layer="22" font="vector" ratio="17" rot="MR0">12V</text>
-<text x="11.585" y="11.73" size="0.7" layer="22" font="vector" ratio="17" rot="MR0">DATA</text>
-<text x="22.535" y="11.86" size="0.7" layer="22" font="vector" ratio="17" rot="MR0">12V</text>
-<text x="25.605" y="11.84" size="0.7" layer="22" font="vector" ratio="17" rot="MR0">DATA</text>
+<text x="13.88" y="14.265" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">GND</text>
+<text x="14.93" y="14.275" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">12V</text>
+<text x="15.43" y="12.205" size="0.7" layer="22" font="vector" ratio="17" rot="MR90">DATA</text>
 <polygon width="0.2" layer="21">
 <vertex x="19.89" y="8.81"/>
 <vertex x="18.4" y="8.81"/>
 <vertex x="18.4" y="7.05"/>
 <vertex x="19.89" y="7.05"/>
 </polygon>
+<text x="14.28" y="7.135" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">3V3</text>
+<text x="15.57" y="7.145" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">LRST</text>
+<text x="16.8" y="7.135" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">SWDIO</text>
+<text x="18.25" y="7.125" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">SWCLK</text>
+<text x="19.66" y="6.845" size="0.7" layer="22" font="vector" ratio="17" rot="MR270">GND</text>
+<text x="20.195" y="0.63" size="0.7" layer="21" font="vector" ratio="17" rot="SR0">TXEN</text>
+<text x="16.995" y="5.81" size="0.7" layer="21" font="vector" ratio="17" rot="SR0">LPCINT</text>
+<wire x1="22.74" y1="1.52" x2="24.11" y2="2.89" width="0.2" layer="21"/>
+<wire x1="24.11" y1="2.89" x2="25.69" y2="2.89" width="0.2" layer="21"/>
+<text x="23.235" y="3.03" size="0.9" layer="21" font="vector" ratio="17" rot="SR0">TP</text>
 </plain>
 <libraries>
 <library name="Xevelabs">
@@ -2102,7 +2109,7 @@ design rules under a new name.</description>
 <wire x1="19.15" y1="5.79" x2="19.15" y2="6.91" width="0.15" layer="16"/>
 <wire x1="19.15" y1="6.91" x2="20.3592" y2="6.91" width="0.15" layer="1"/>
 </signal>
-<signal name="N$1">
+<signal name="TEST_POINT">
 <contactref element="U6" pad="D4"/>
 <contactref element="P7" pad="P$1"/>
 <wire x1="24.69" y1="3.03" x2="25.46" y2="3.8" width="0.15" layer="1"/>
@@ -2229,8 +2236,9 @@ design rules under a new name.</description>
 <approved hash="3,1,3d8d847784113deb"/>
 <approved hash="3,1,bdff84058434bdce"/>
 <approved hash="18,29,8d71ae3520e2c80e"/>
-<approved hash="18,29,7202787874c77ebd"/>
 <approved hash="18,29,66366c4c7347793d"/>
+<approved hash="18,29,7202787874c77ebd"/>
+<approved hash="18,29,2e3c2ef909f9093c"/>
 <approved hash="4,16,208c7f0c00095f89"/>
 <approved hash="4,16,d30a338a4c87ac07"/>
 <approved hash="4,16,8780e600993df8bd"/>
