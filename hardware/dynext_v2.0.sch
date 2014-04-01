@@ -3808,7 +3808,6 @@ https://github.com/Xevel/dynext</text>
 <text x="63.5" y="208.28" size="1.778" layer="91">License: MIT</text>
 <text x="45.72" y="10.16" size="1.778" layer="91">LPC_INT : Interrupt pin to signal stuff has changed to the atmega</text>
 <text x="45.72" y="12.7" size="1.778" layer="91">TX_EN : Enable TX level converter or not - also useful to make ISP prog possible</text>
-<text x="297.18" y="167.64" size="1.778" layer="92" rot="R90">TODO LED 0402?</text>
 <text x="25.4" y="93.98" size="1.778" layer="92">TODO do we put a fuse? what value then? on which rail?</text>
 <wire x1="162.56" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="97"/>
 <wire x1="162.56" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="97"/>
@@ -3848,21 +3847,21 @@ https://github.com/Xevel/dynext</text>
 <instance part="DXL1" gate="G$1" x="358.14" y="101.6" rot="R180"/>
 <instance part="DXL2" gate="G$1" x="340.36" y="101.6" rot="R180"/>
 <instance part="P+4" gate="1" x="375.92" y="114.3"/>
-<instance part="RPTC1" gate="G$1" x="248.92" y="180.34" rot="R270"/>
-<instance part="GND13" gate="1" x="238.76" y="157.48"/>
-<instance part="D1" gate="G$1" x="238.76" y="170.18" rot="R180"/>
-<instance part="D3" gate="G$1" x="238.76" y="190.5" rot="R180"/>
-<instance part="P+6" gate="1" x="238.76" y="200.66"/>
+<instance part="RPTC1" gate="G$1" x="251.46" y="180.34" rot="R270"/>
+<instance part="GND13" gate="1" x="241.3" y="157.48"/>
+<instance part="D1" gate="G$1" x="241.3" y="170.18" rot="R180"/>
+<instance part="D3" gate="G$1" x="241.3" y="190.5" rot="R180"/>
+<instance part="P+6" gate="1" x="241.3" y="200.66"/>
 <instance part="GND16" gate="1" x="119.38" y="149.86"/>
 <instance part="P+5" gate="1" x="73.66" y="124.46"/>
 <instance part="C13" gate="G$1" x="38.1" y="162.56"/>
 <instance part="C14" gate="G$1" x="73.66" y="109.22"/>
 <instance part="GND17" gate="1" x="73.66" y="104.14"/>
 <instance part="D2" gate="G$1" x="27.94" y="165.1" rot="R180"/>
-<instance part="U4" gate="G$1" x="203.2" y="182.88"/>
-<instance part="GND18" gate="1" x="193.04" y="172.72"/>
-<instance part="P+2" gate="1" x="213.36" y="198.12"/>
-<instance part="+3V4" gate="G$1" x="193.04" y="198.12"/>
+<instance part="U4" gate="G$1" x="205.74" y="182.88"/>
+<instance part="GND18" gate="1" x="195.58" y="172.72"/>
+<instance part="P+2" gate="1" x="215.9" y="198.12"/>
+<instance part="+3V4" gate="G$1" x="195.58" y="198.12"/>
 <instance part="LED2" gate="G$1" x="302.26" y="172.72"/>
 <instance part="GND23" gate="1" x="302.26" y="165.1"/>
 <instance part="R2" gate="G$1" x="101.6" y="162.56"/>
@@ -3893,8 +3892,8 @@ https://github.com/Xevel/dynext</text>
 <instance part="GND12" gate="1" x="17.78" y="50.8"/>
 <instance part="C5" gate="G$1" x="17.78" y="60.96" rot="R180"/>
 <instance part="+3V6" gate="G$1" x="381" y="193.04"/>
-<instance part="P3" gate="G$1" x="353.06" y="162.56" rot="R180"/>
-<instance part="P4" gate="G$1" x="353.06" y="157.48" rot="R180"/>
+<instance part="P3" gate="G$1" x="345.44" y="157.48" rot="R180"/>
+<instance part="P4" gate="G$1" x="345.44" y="152.4" rot="R180"/>
 <instance part="U1" gate="G$1" x="71.12" y="165.1"/>
 <instance part="L1" gate="G$1" x="93.98" y="170.18" rot="R90"/>
 <instance part="C6" gate="G$1" x="129.54" y="114.3"/>
@@ -3903,7 +3902,7 @@ https://github.com/Xevel/dynext</text>
 <instance part="GND3" gate="1" x="88.9" y="104.14"/>
 <instance part="U2" gate="A" x="106.68" y="121.92"/>
 <instance part="IC1" gate="A" x="53.34" y="114.3"/>
-<instance part="P5" gate="G$1" x="353.06" y="152.4" rot="R180"/>
+<instance part="P5" gate="G$1" x="345.44" y="147.32" rot="R180"/>
 <instance part="GND6" gate="1" x="304.8" y="88.9"/>
 <instance part="P+1" gate="1" x="287.02" y="116.84"/>
 <instance part="GND22" gate="1" x="251.46" y="116.84" rot="MR0"/>
@@ -3912,8 +3911,8 @@ https://github.com/Xevel/dynext</text>
 <instance part="C7" gate="G$1" x="238.76" y="55.88" rot="R180"/>
 <instance part="GND24" gate="1" x="238.76" y="48.26"/>
 <instance part="P+9" gate="1" x="259.08" y="68.58"/>
-<instance part="GND25" gate="1" x="378.46" y="144.78"/>
-<instance part="P1" gate="G$1" x="353.06" y="147.32" rot="R180"/>
+<instance part="GND25" gate="1" x="370.84" y="139.7"/>
+<instance part="P1" gate="G$1" x="345.44" y="142.24" rot="R180"/>
 <instance part="P2" gate="G$1" x="152.4" y="53.34"/>
 <instance part="P6" gate="G$1" x="182.88" y="33.02"/>
 <instance part="R4" gate="G$1" x="370.84" y="180.34" rot="R90"/>
@@ -3945,7 +3944,7 @@ https://github.com/Xevel/dynext</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="167.64" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="167.64" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 </segment>
@@ -3955,8 +3954,8 @@ https://github.com/Xevel/dynext</text>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="195.58" y1="177.8" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="177.8" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="177.8" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -4077,7 +4076,7 @@ https://github.com/Xevel/dynext</text>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="378.46" y1="147.32" x2="353.06" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="142.24" x2="345.44" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <pinref part="P1" gate="G$1" pin="1"/>
 </segment>
@@ -4159,8 +4158,8 @@ https://github.com/Xevel/dynext</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCCA"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<wire x1="195.58" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="187.96" x2="193.04" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="187.96" x2="195.58" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="A" pin="VDD(IO)"/>
@@ -4237,12 +4236,12 @@ https://github.com/Xevel/dynext</text>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="238.76" y1="193.04" x2="238.76" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="193.04" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCCB"/>
-<wire x1="210.82" y1="185.42" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="185.42" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="185.42" x2="215.9" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="185.42" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -4310,9 +4309,9 @@ https://github.com/Xevel/dynext</text>
 <junction x="360.68" y="104.14"/>
 </segment>
 <segment>
-<label x="261.62" y="180.34" size="1.778" layer="95"/>
+<label x="264.16" y="180.34" size="1.778" layer="95"/>
 <pinref part="RPTC1" gate="G$1" pin="2"/>
-<wire x1="254" y1="180.34" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="180.34" x2="264.16" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4329,24 +4328,24 @@ https://github.com/Xevel/dynext</text>
 <label x="137.16" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="172.72" x2="238.76" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="172.72" x2="241.3" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="RPTC1" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="180.34" x2="243.84" y2="180.34" width="0.1524" layer="91"/>
-<junction x="238.76" y="180.34"/>
+<wire x1="241.3" y1="180.34" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
+<junction x="241.3" y="180.34"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="238.76" y1="180.34" x2="238.76" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="180.34" x2="241.3" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="B"/>
-<wire x1="210.82" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="180.34" x2="238.76" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="180.34" x2="218.44" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
-<label x="185.42" y="160.02" size="1.778" layer="95" rot="R180"/>
-<junction x="218.44" y="180.34"/>
+<wire x1="213.36" y1="180.34" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="180.34" x2="241.3" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="180.34" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
+<label x="187.96" y="160.02" size="1.778" layer="95" rot="R180"/>
+<junction x="220.98" y="180.34"/>
 </segment>
 <segment>
-<wire x1="353.06" y1="152.4" x2="360.68" y2="152.4" width="0.1524" layer="91"/>
-<label x="360.68" y="152.4" size="1.778" layer="95"/>
+<wire x1="345.44" y1="147.32" x2="353.06" y2="147.32" width="0.1524" layer="91"/>
+<label x="353.06" y="147.32" size="1.778" layer="95"/>
 <pinref part="P5" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4358,12 +4357,12 @@ https://github.com/Xevel/dynext</text>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="A"/>
-<wire x1="195.58" y1="180.34" x2="185.42" y2="180.34" width="0.1524" layer="91"/>
-<label x="185.42" y="180.34" size="1.778" layer="95" rot="R180"/>
+<wire x1="198.12" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
+<label x="187.96" y="180.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<wire x1="353.06" y1="157.48" x2="360.68" y2="157.48" width="0.1524" layer="91"/>
-<label x="360.68" y="157.48" size="1.778" layer="95"/>
+<wire x1="345.44" y1="152.4" x2="353.06" y2="152.4" width="0.1524" layer="91"/>
+<label x="353.06" y="152.4" size="1.778" layer="95"/>
 <pinref part="P4" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4802,8 +4801,8 @@ https://github.com/Xevel/dynext</text>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="OE"/>
-<wire x1="195.58" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
-<label x="185.42" y="182.88" size="1.778" layer="95" rot="R180"/>
+<wire x1="198.12" y1="182.88" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
+<label x="187.96" y="182.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SSEL/ISP/D5" class="0">
@@ -4823,8 +4822,8 @@ https://github.com/Xevel/dynext</text>
 <label x="345.44" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="360.68" y1="162.56" x2="353.06" y2="162.56" width="0.1524" layer="91"/>
-<label x="360.68" y="162.56" size="1.778" layer="95"/>
+<wire x1="353.06" y1="157.48" x2="345.44" y2="157.48" width="0.1524" layer="91"/>
+<label x="353.06" y="157.48" size="1.778" layer="95"/>
 <pinref part="P3" gate="G$1" pin="1"/>
 </segment>
 </net>
