@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3700,8 +3700,8 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED2" library="Xevelabs" deviceset="LED" device="0603" value="Red"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="Xevelabs" deviceset="R" device="0201" value="todok 1%"/>
-<part name="R3" library="Xevelabs" deviceset="R" device="0201" value="todok 1%"/>
+<part name="R2" library="Xevelabs" deviceset="R" device="0201" value="1.02M 1%"/>
+<part name="R3" library="Xevelabs" deviceset="R" device="0201" value="178k 1%"/>
 <part name="C17" library="Xevelabs" deviceset="C" device="1206" value="22uF"/>
 <part name="R1" library="Xevelabs" deviceset="R" device="0201" value="1K"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -3716,7 +3716,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="JP10" library="SparkFun-Connectors" deviceset="M05" device="1.27MM" value="SWD"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="CSTCE16M0V53"/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="CSTCE16M0V53-R0"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="Xevelabs" deviceset="C" device="0201" value="0.1uF"/>
@@ -3810,7 +3810,6 @@ https://github.com/Xevel/dynext</text>
 <text x="45.72" y="12.7" size="1.778" layer="91">TX_EN : Enable TX level converter or not - also useful to make ISP prog possible</text>
 <text x="297.18" y="167.64" size="1.778" layer="92" rot="R90">TODO LED 0402?</text>
 <text x="25.4" y="93.98" size="1.778" layer="92">TODO do we put a fuse? what value then? on which rail?</text>
-<text x="109.22" y="157.48" size="1.778" layer="92" rot="R90">TODO select value</text>
 <wire x1="162.56" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="97"/>
 <wire x1="162.56" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="162.56" y1="147.32" x2="162.56" y2="83.82" width="0.1524" layer="97"/>
@@ -3824,6 +3823,22 @@ https://github.com/Xevel/dynext</text>
 <wire x1="195.58" y1="0" x2="386.08" y2="0" width="0.1524" layer="97"/>
 <wire x1="386.08" y1="0" x2="386.08" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="386.08" y1="81.28" x2="195.58" y2="81.28" width="0.1524" layer="97"/>
+<text x="7.62" y="134.62" size="1.778" layer="91">5V_DIRTY is actually around 5.3V</text>
+<text x="127" y="203.2" size="1.778" layer="91">R2 (1%)</text>
+<text x="144.78" y="203.2" size="1.778" layer="91">R3 (1%)</text>
+<text x="109.22" y="198.12" size="1.778" layer="91">5.2V</text>
+<text x="109.22" y="193.04" size="1.778" layer="91">5.4V</text>
+<text x="109.22" y="195.58" size="1.778" layer="91">5.25V</text>
+<text x="109.22" y="190.5" size="1.778" layer="91">5.5V</text>
+<text x="127" y="198.12" size="1.778" layer="91">976k</text>
+<text x="144.78" y="198.12" size="1.778" layer="91">178k</text>
+<text x="144.78" y="195.58" size="1.778" layer="91">178k</text>
+<text x="144.78" y="193.04" size="1.778" layer="91">178k</text>
+<text x="144.78" y="190.5" size="1.778" layer="91">178k</text>
+<text x="127" y="195.58" size="1.778" layer="91">1.0M</text>
+<text x="127" y="193.04" size="1.778" layer="91">1.02M</text>
+<text x="127" y="190.5" size="1.778" layer="91">1.05M</text>
+<text x="109.22" y="203.2" size="1.778" layer="91">5V_DIRTY</text>
 </plain>
 <instances>
 <instance part="GND4" gate="1" x="213.36" y="48.26"/>
@@ -4484,7 +4499,7 @@ https://github.com/Xevel/dynext</text>
 <wire x1="347.98" y1="177.8" x2="337.82" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5.25V" class="0">
+<net name="5V_DIRTY" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VOS"/>
 <wire x1="83.82" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
